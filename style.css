@@ -28,13 +28,13 @@ body{
   font-family: 'Outfit', sans-serif;
   display:flex;
   justify-content: center;
-  margin:50px;
-  height:100vh;
+  margin:20%;
+  height:90vh;
   align-items: center;
   flex-direction: column;
 }
 #main{
-  margin-top:50px;
+  /* margin-top:50px; */
   width:600px;
   background-color: var(--White);
   border-radius:20px;

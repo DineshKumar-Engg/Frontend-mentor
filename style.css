@@ -31,14 +31,14 @@ body{
   font-family: 'Outfit', sans-serif;
   display:flex;
   justify-content: center;
-  max-width:100%;
+  max-width:100%px;  
   height:120vh;
   align-items: center;
   flex-direction: column;
 }
 #main{
   /* margin-top:50px; */
-  width:600px;
+  width:500px;
   background-color: var(--White);
   border-radius:20px;
   padding:25px;
@@ -65,7 +65,7 @@ p{
   padding-bottom: 10px;
 }
 
-@media (max-width:700px) {
+@media (max-width:600px) {
   #main{
     margin-top: 2rem;
     width:300px;
